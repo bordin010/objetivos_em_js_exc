@@ -1,15 +1,15 @@
-// Exercício 9 – Conta de Usuário
-// Crie um objeto conta com:
-// usuario
-// senha
-// nivel
+// Exercício 10 – Escola
+// Crie um objeto escola com:
+// nome
+// cidade
+// turno
 // Depois, exiba a mensagem:
-// // O usuário eduardo possui nível administrador e utiliza a senha 1234, muito fraca por sinal.
+// A escola EEEP funciona na cidade de Fortaleza no turno da manhã.
 
-let conta = {
-    usuario: "eduardo",
-    nivel: "administrador",
-    senha: 1234
+let escola = {
+    nome: "EEEP",
+    cidade: "Fortaleza",
+    turno: "manhã"
 }
 
-console.log(`O usuário ${conta.usuario} possui nível ${conta.nivel} e utiliza a senha ${conta.senha}, muito fraca por sinal. `)
+console.log(`A escola ${escola.nome} funciona na cidade de ${escola.cidade} no turno da ${escola.turno}.`)
